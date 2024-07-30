@@ -38,7 +38,7 @@ export default plugin(
     });
   },
   {
-    content: ['./node_modules/@getcommunity/gcui/dist/**/*.{html,js,jsx,ts,tsx,mdx}'],
+    content: ['@getcommunity/gcui', 'src/**/*.{html,js,jsx,ts,tsx,mdx}'],
     theme: {
       extend: {
         keyframes: {
